@@ -199,6 +199,7 @@ class BeerOrderControllerTest extends BaseIT {
 
     }
 
+    @Disabled
     @Transactional
     @WithUserDetails("spring")
     @Test
